@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include "build_number.h"
 
 int version();
-int get_build_number();
-std::string get_greeting();
+
