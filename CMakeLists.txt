@@ -23,6 +23,7 @@ enable_testing()
 include_directories(${GTEST_INCLUDE_DIRS})
 add_executable(test_version test_version.cpp)
 target_link_libraries(test_version gtest gtest_main)
+
 add_test(test_version test_version)
 
 
